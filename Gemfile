@@ -7,4 +7,8 @@ gem "webrick"
 gem "pg"
 gem "pry"
 
+group :production do
+  gem "puma"
+end
+
 ruby "3.2.2"
